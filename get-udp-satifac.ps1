@@ -1,0 +1,1 @@
+Get-NetUDPEndPoint | Select-Object LocalAddress, LocalPort, @{Name="Process";Expression={(Get-Process -Id $_.OwningProcess).ProcessName}} | Sort-Object -Property LocalPort,Process | Where-Object{$_.Process -like "UE4Server-Win64-Shipping"}
