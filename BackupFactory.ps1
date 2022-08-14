@@ -181,7 +181,7 @@ function set-mytaskSheduler{
 ###########################################################
 ###########################################################
 # HERE VARIABLES Change server backup file ! 
-$SaveGamesPathCustomized="C:\Users\osivi\AppData\Local\FactoryGame\Saved\SaveGames\server"
+$SaveGamesPathCustomized="C:\Users\$env:USERPROFILE\AppData\Local\FactoryGame\Saved\SaveGames\server"
 # HERE VARIABLES Change place to be a backup file !
 $BackupPathCustomized="F:\Test"
 # HERE VARIABLES Change Folder for Windows Scheduler !
