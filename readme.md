@@ -23,10 +23,10 @@ PS> .\BackupFactory.ps1 -RemoveTask
 PS> .\BackupFactory.ps1 -Clean
 
 ### EXAMPLE
-PS> .\start-factory.ps1 start
+PS> .\start-factory.ps1 -start
 
 ### EXAMPLE
-PS> .\start-factory.ps1 status
+PS> .\start-factory.ps1 -status
 ###### Executable informations
 
  NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI ProcessName
@@ -54,4 +54,4 @@ LocalPort    : 15777
 Process      : UE4Server-Win64-Shipping
 
 ### EXAMPLE
-PS> .\start-factory.ps1 stop
+PS> .\start-factory.ps1 -stop
