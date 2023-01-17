@@ -1,7 +1,8 @@
 # Backup the backup files in a ZIP file on the Satisfactory dedicated server
 
-Hello, This is my scrpit for satisfgactory dedicated server (for unreal engine)
+Hello, This is my scrpit for satisfactory dedicated server (for unreal engine)
 Maybe working for you.
+Tip: it's possible to make automatique windows task for backup with -CreateTask -Auto
 
 ## DESCRIPTION
 Simple scripts to backup anywhere Satifactory Backup ans start/stop/status :)
